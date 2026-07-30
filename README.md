@@ -28,7 +28,7 @@ Kumbuka is a simple MVC-driven Notes/Record Management Web Application built as 
     - [Terms and Conditions](#privacy-policy-for-kumbuka)
 
 
-![Version](https://img.shields.io/badge/version-v1.0.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-v2.0.0-blue?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
 [![Static Badge](https://img.shields.io/badge/Copyright%20%C2%A9%202026%20N--Gen%20Design-1E30F3?style=for-the-badge&label=Copyright)](https://ngendesign.com)
 
@@ -40,8 +40,8 @@ Kumbuka is a simple MVC-driven Notes/Record Management Web Application built as 
 ![Static Badge](https://img.shields.io/badge/OpenSSL-3.1.3-721412?style=for-the-badge)
 
 
-![Static Badge](https://img.shields.io/badge/CodeIgniter-4.6.4-DD4814?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/Bootstrap-4.6.2-6f42c1?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/CodeIgniter-4.7.x-DD4814?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Bootstrap-5.x-6f42c1?style=for-the-badge)
 
 
 ### [Click here for Live Verison](https://kumbuka.ngendesign.com)
