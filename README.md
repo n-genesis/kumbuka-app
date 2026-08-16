@@ -1,5 +1,5 @@
 # Kumbuka: Notebook Application
-Kumbuka is a simple MVC-driven Notes/Record Management Web Application built as a portfolio project to demonstrate backend architecture, database normalization, and secure coding practices using the [**CodeIgniter Framework**](https://github.com/cirebonweb/codeigniter4-starter-kit).
+Kumbuka is a simple Notebooks/Record Management Web Application built as a portfolio project to demonstrate backend architecture, database normalization, and secure coding practices using the [**CodeIgniter Framework**](https://github.com/cirebonweb/codeigniter4-starter-kit).
 
 ## 💡 Key Features Showcase
 * **User Authentication:** Secure registration, password hashing, and role-based access control.
@@ -23,12 +23,8 @@ Kumbuka is a simple MVC-driven Notes/Record Management Web Application built as 
     - [Setup Localhost](#setup-localhost)
     - [Credits](#include-dependencies)
     - [License](#license)
-- [Live Demo Information](#live-demo-information)
-    - [Privacy Notice](#privacy-notice)
-    - [Terms and Conditions](#privacy-policy-for-kumbuka)
 
-
-![Version](https://img.shields.io/badge/version-v2.0.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-v1.0.0-blue?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
 [![Static Badge](https://img.shields.io/badge/Copyright%20%C2%A9%202026%20N--Gen%20Design-1E30F3?style=for-the-badge&label=Copyright)](https://ngendesign.com)
 
@@ -48,7 +44,7 @@ Kumbuka is a simple MVC-driven Notes/Record Management Web Application built as 
 *For more about the Live sandbox version's Privacy Notice and Terms and Conditions you can check them out here*
 
 
-![Dashboard](./public/screenshot-preview.webp)
+![Dashboard](./screenshot-preview.webp)
 
 ***Check Out:*** The project's [TODO.md list](./TODO.md) and [dev-notes file](./dev-notes.md) to see changelogs and planned updates and additions. [Here's a Google Doc]( https://docs.google.com/document/d/1-cpAjEaZSQvS6A5ZcgJN0wKay-YI9Nf7xm1bFfvkC3s/edit?usp=sharing) with some applications development plans. 
 
@@ -132,44 +128,6 @@ Persistent user-specific settings for CodeIgniter 4
 https://github.com/tattersoftware/codeigniter4-preferences
 
 ## License
-"Copyright (c) 2026 N-Gen Design. All rights reserved." but feel free still have fun.
+Copyright © 2026 N-Gen Design(Adrian Garber). All rights reserved. 
 
-### Live Demo Information
-
-## 🔒 Privacy Notice
-This is a portfolio project built to showcase development practices with CodeIgniter. 
-* **No Collection:** The live demonstration of this application does not collect, log, or store any personal data. 
-* **Local Sessions:** Any interaction or input is handled strictly in-memory or via functional session cookies to demonstrate framework mechanics. No data persists after you close your browser.
-
-# Terms and Conditions
-
-**Last Updated: July 2026**
-
-Welcome to [Your Application Name] (the "Application"). This website is a public portfolio project created solely to demonstrate web development proficiency, backend architecture, and design implementations using the CodeIgniter framework. 
-
-By accessing or using this Application, you acknowledge that you have read, understood, and agreed to be bound by these Terms and Conditions. If you do not agree, please discontinue use of the site immediately.
-
-# Privacy Policy for Kumbuka
-
-**Last Updated: July 2026**
-
-Welcome to [Your App Name]. This web application was developed solely as a portfolio project to demonstrate web development and programming proficiency using the CodeIgniter framework. 
-
-### 1. Information We Collect
-Because this is a demonstration application, we minimize data collection as much as possible:
-* **User-Submitted Data:** If you create a test account, fill out a sample form, or post mock data, that information is stored in our database purely to demonstrate application functionality. Please do not enter real, sensitive personal information.
-* **Automated Technical Data:** Like most websites, our server may automatically log standard technical data such as your IP address, browser type, and the time of your visit. 
-
-### 2. Cookies and Sessions
-This application uses standard, built-in CodeIgniter session cookies (such as `ci_session`) to ensure the website functions correctly, maintains your session state, and protects against Cross-Site Request Forgery (CSRF) attacks. These cookies do not track your browsing habits outside of this site.
-
-### 3. How Your Data is Used and Shared
-Any data you enter into this application is used strictly to display the app's features. We do not sell, rent, trade, or share your data with any third parties. 
-
-### 4. Data Retention and Security
-Data entered into this demonstration site is considered temporary and may be deleted or reset at any time without notice. While we implement standard framework security measures, this site is not intended to secure highly sensitive data. 
-
-### 5. Contact Information
-If you have any questions about this project or the CodeIgniter implementation, please contact the developer via their primary portfolio website or [Your Contact Email/GitHub Link].
-
-
+This project and its source code are proprietary. No part of this project may be reproduced, distributed, modified, or transmitted in any form or by any means without the prior written permission of the copyright owner.
