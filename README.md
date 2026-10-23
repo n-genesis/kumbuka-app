@@ -104,10 +104,10 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ### Setup Localhost
 1. Download or clone the repo to your `localhost` folder.
-2. Change directory to `cd ngen-kumbuka-ci` folder.
+2. Change directory to `cd kumbuka-app` folder.
 3. Import `ngen-bootsnippets-ci/database.sql` to your MySQL or MariaDB Server, create a user and grant all rights to the imported `DB`
 4. Rename `env` to `.env`
-5. (Optional) Change the App URL to `app.baseURL = 'http://localhost/ngen-kumbuka-ci/public/'` if nedded.
+5. (Optional) Change the App URL to `app.baseURL = 'http://localhost/kumbuka-app/public/'` if nedded.
 6. Update database config, change the lines where `database.default.database =`, `database.default.username =`, `database.default.password =`, and `database.default.hostname =` in .env file to match your database credentials.
 7. Run the Migrates: `php spark migrate --all`.
 8. Launch the development server (Two options)
