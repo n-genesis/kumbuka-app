@@ -1,0 +1,286 @@
+/*!
+ * @project   kumbuka-template-theme
+ * @version   1.0.0
+ * @author    N-Gen Design (https://ngendesign.com)
+ * @license   MIT
+ *
+ * Copyright (c) 2026 N-Gen Design. All rights reserved.
+ */
+/*
+ * styles.css
+ * Main stylesheet for the Kumbuka template.
+ * Description: Core styles and theme rules for the main layout.
+ */
+/* Essential structural layout styling only */
+:root {
+  --sidebar-custom-width: 340px;
+  /* Change this value to adjust width globally */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+i.bi {
+  margin-right: 0.25rem;
+}
+
+.breadcrumb {
+  border: 1px solid var(--bs-gray-200) !important;
+}
+
+.breadcrumb a {
+  color: var(--bs-gray-200) !important;
+}
+
+/* Landing Wrapper alignment */
+.landing-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 4rem 1.5rem;
+}
+
+/* Custom Card Elements based on feed styles */
+.feature-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* Navigation Style Buttons */
+.btn-action {
+  font-size: 0.875rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+/* Icon box matching sidebar styles */
+.icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem auto;
+  color: #0d6efd;
+  font-size: 1.5rem;
+}
+
+/*Remove background styling from the default burger lines icon wrapper */
+.navbar-toggler-icon-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  /* Proportional text scaling matching Bootstrap buttons */
+}
+
+/* Force the Close button icon element to render solid opaque black */
+.btn-close-black {
+  opacity: 1 !important;
+  /* Overrides default Bootstrap transparency states */
+  filter: brightness(0) saturate(100%);
+  /* Drops color parameters to crisp pure hex #000 */
+}
+
+.app-container {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+/* UNIFIED SCROLLING SIDEBAR: Applies to all screen sizes */
+.sidebar-responsive {
+  overflow-y: auto;
+  width: var(--sidebar-custom-width) !important;
+  /* Overrides default 400px mobile offcanvas width */
+}
+
+/* Desktop specific layout constraints */
+@media (min-width: 992px) {
+  .sidebar-responsive {
+    width: 260px !important;
+    flex-shrink: 0;
+    /* Pins the sidebar height to the exact viewport space under the 4.5rem top navbar */
+    height: calc(100vh - 2.5rem);
+    position: sticky;
+    top: 3.5rem;
+  }
+}
+/* Mobile specific layout constraints */
+@media (max-width: 991.98px) {
+  .sidebar-responsive {
+    max-height: 100vh;
+  }
+}
+/* Flexbox wrapper to isolate sticky footer inside content area */
+.content-wrapper {
+  flex-grow: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.5rem;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+.main-content .container-fluid {
+  min-height: 100vh !important;
+}
+
+.footer-content {
+  flex-shrink: 0;
+}
+
+/* Custom avatar sizing utility */
+.avatar-img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.avatar-placeholder {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 12px;
+}
+
+/* Fixed tab behavior to integrate seamlessly with the sharper bottom header border line */
+.nav-tabs .nav-link.active {
+  background-color: #fff !important;
+  border-color: #dee2e6 #dee2e6 #fff !important;
+  color: #0d6efd !important;
+}
+
+/* Fluid Responsive Image Thumbnail wrapper */
+.note-img-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 991.98px) {
+  .note-img-container {
+    width: 64px;
+    height: 64px;
+  }
+}
+.notebook-card {
+  border: 1px solid var(--bs-gray-300);
+  border-radius: 12px;
+}
+
+
+.notebook-accent-line {
+  width: 4px;
+  /* background-color: var(--bs-blue); */
+  border-radius: 4px 0 0 4px;
+}
+
+.notebook-card .btn-action {
+  padding: 6px 10px;
+}
+
+/* Feed Banner */
+.feed-banner {
+  background-color: #004085;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+}
+
+/* Custom Card Styles */
+.feed-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  transition: box-shadow 0.2s;
+}
+
+.feed-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.card-thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.375rem;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #6c757d;
+  flex-shrink: 0;
+}
+
+.card-img-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.375rem;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-color: #e9ecef;
+}
+
+.card-meta {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  white-space: nowrap;
+}
+
+.btn-feed-action {
+  font-size: 0.8125rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+  background: #fff;
+  color: #495057;
+}
+
+.btn-feed-action:hover {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+}
+
+/* Empty component placeholder styling */
+.empty-component-box {
+  border: 2px dashed #cbd5e1;
+  border-radius: 0.375rem;
+  padding: 3rem 1rem;
+  color: #94a3b8;
+}
+
+.empty-component-box i {
+  font-size: 2.5rem;
+}
