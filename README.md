@@ -40,7 +40,7 @@ Kumbuka is a simple Notebooks/Record Management Web Application built as a portf
 ![Static Badge](https://img.shields.io/badge/Bootstrap-5.x-6f42c1?style=for-the-badge)
 
 
-### [Click here for Live Verison](https://kumbuka.ngendesign.com)
+### [Click here for Live Verison](https://kumbuka.ngendesign.net)
 *For more about the Live sandbox version's Privacy Notice and Terms and Conditions you can check them out here*
 
 
